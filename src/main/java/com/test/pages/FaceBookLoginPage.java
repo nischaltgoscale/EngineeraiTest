@@ -51,7 +51,7 @@ public class FaceBookLoginPage extends BasePage {
 		setValueInField(EmailField, username);
 		setValueInField(PasswordField, password);
 		click(LoginBttn);
-		Thread.sleep(5000);;
+		Thread.sleep(8000);;
 	}
 	
 }

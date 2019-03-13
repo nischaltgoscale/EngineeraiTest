@@ -1,6 +1,7 @@
 package com.test.scripts;
 
 
+import java.awt.AWTException;
 import java.io.IOException;
 
 import org.apache.logging.log4j.LogManager;
@@ -13,7 +14,7 @@ public class FacebookTest extends BaseTest{
 	private static Logger Log = LogManager.getLogger(FacebookTest.class.getName());
 	
   @Test
-  public void googletest() throws InterruptedException, IOException 
+  public void googletest() throws InterruptedException, IOException, AWTException 
   {
 	String username = "nischalt@goscale.co";
 	String password = "Updoer.17";
