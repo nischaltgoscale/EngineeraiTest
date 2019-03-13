@@ -31,7 +31,7 @@ public class FaceBookLoginPage extends BasePage {
 	
 	private By PasswordField = By.id("pass");
 	
-	private By LoginBttn = By.id("u_0_2");
+	private By LoginBttn = By.xpath("//input[@value = 'Log In']");
 	
 	public FaceBookLoginPage(WebDriver driver) {
 

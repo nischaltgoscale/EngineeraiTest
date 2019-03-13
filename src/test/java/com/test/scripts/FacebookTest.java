@@ -22,10 +22,10 @@ public class FacebookTest extends BaseTest{
 	pages.getFacebookPage().openApplication();
 	
 	
-	Log.info("Enter Wedding Keyword");
+	Log.info("Login to FB");
 	pages.getFacebookPage().loginIntoFb(username, password);
 	
-	Log.info("Select all options in list and assert that all option contain search keyword");
+	Log.info("Post Photo");
 	pages.getFacebookHomePage().postPhoto();
 	
   }
